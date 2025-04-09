@@ -56,6 +56,7 @@ pip install compressed-tensors==0.9.2 --no-deps
 pip install deepspeed==0.15.4 --no-deps
 pip install outlines==0.1.11 --no-deps
 pip install outlines-core==0.1.26 --no-deps
+pip install peft==0.14.0 --no-deps
 pip install -r requirements.txt
 pip install -e .
 python -m nltk.downloader punkt
