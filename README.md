@@ -51,6 +51,7 @@ Our setup mostly follows our [Dockerfile](./Dockerfile), which uses Python 3.10.
 ```bash
 pip install packaging
 pip install accelerate==1.2.1 --no-deps
+pip install bitsandbytes==0.45.0 --no-deps
 pip install -r requirements.txt
 pip install -e .
 python -m nltk.downloader punkt
